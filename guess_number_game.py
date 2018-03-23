@@ -24,7 +24,7 @@ for guessesTaken in range(6):
 if guess != number:
     print("You lost.")
     print("Number:" + str(number))
-if guess = number:
+if guess == number:
     print("You figured out my number in " + str(guessesTaken) + " attempts.")
 
     
