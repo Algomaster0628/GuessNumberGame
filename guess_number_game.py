@@ -21,4 +21,10 @@ for guessesTaken in range(6):
     if guess == number:
         print("Your guess is correct.")
         break
-print("You figured out my number in " + str(guessesTaken) + " attempts.")
+if guess != number:
+    print("You lost.")
+    print("Number:" + str(number))
+if guess = number:
+    print("You figured out my number in " + str(guessesTaken) + " attempts.")
+
+    
